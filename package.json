@@ -1,0 +1,20 @@
+{
+  "name": "g-insight-demo2",
+  "version": "1.0.0",
+  "description": "G-Insight: Business Intelligence Dashboard - Presentation",
+  "scripts": {
+    "build:marp": "marp docs/presentation.md -o dist/index.html --html",
+    "serve": "marp docs/presentation.md -s --html",
+    "preview": "marp docs/presentation.md -p --html"
+  },
+  "keywords": [
+    "marp",
+    "presentation",
+    "business-intelligence"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
